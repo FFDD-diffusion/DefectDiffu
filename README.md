@@ -22,7 +22,6 @@ python train.py \
     --batchsize 2 \
     --vae /vae_path \
     --data /mvtec_path
-done
 ```
 
 ## Citing
