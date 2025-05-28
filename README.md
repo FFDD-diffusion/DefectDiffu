@@ -23,6 +23,16 @@ python train.py \
     --data /mvtec_path
 ```
 
+## Test
+```
+cd DefectDiffu
+python test.py \
+    --ckpt model_path \
+    --vae /vae_path \
+    --data /mvtec_path
+```
+
+
 ## Citing
 If you find this code useful in your research, please consider citing us:
 ```
