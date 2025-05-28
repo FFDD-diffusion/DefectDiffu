@@ -13,6 +13,9 @@ The pre-trained DiT models can be downloaded directly here as well:
 | [DiT-256](https://dl.fbaipublicfiles.com/DiT/models/DiT-XL-2-256x256.pt) | 256x256          |
 | [DiT-512](https://dl.fbaipublicfiles.com/DiT/models/DiT-XL-2-512x512.pt) | 512x512          | 
 
+We use the pretrained VAE model from Stable Diffusion:
+https://huggingface.co/stabilityai/sd-vae-ft-mse/tree/main
+
 ## Train
 ```
 cd DefectDiffu
