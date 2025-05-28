@@ -13,6 +13,17 @@ The pre-trained DiT models can be downloaded directly here as well:
 | [DiT-256](https://dl.fbaipublicfiles.com/DiT/models/DiT-XL-2-256x256.pt) | 256x256          |
 | [DiT-512](https://dl.fbaipublicfiles.com/DiT/models/DiT-XL-2-512x512.pt) | 512x512          | 
 
+## Train
+```
+cd DefectDiffu
+python train.py \
+    python train.py
+    --ckpt model_path \
+    --batchsize 2 \
+    --vae /vae_path \
+    --data /mvtec_path
+done
+```
 
 ## Citing
 If you find this code useful in your research, please consider citing us:
