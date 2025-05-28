@@ -17,7 +17,6 @@ The pre-trained DiT models can be downloaded directly here as well:
 ```
 cd DefectDiffu
 python train.py \
-    python train.py
     --ckpt model_path \
     --batchsize 2 \
     --vae /vae_path \
